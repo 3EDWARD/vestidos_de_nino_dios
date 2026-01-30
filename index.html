@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Diseños Frey</title>
+
+	<link rel="stylesheet" href="styles.css" />
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+</head>
+
+<body>
+
+	<header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="container-logo">
+					<h1><a href="index.html">Diseños Frey</a></h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="banner">
+		<div class="content-banner">
+			<p>Colección 2026</p>
+			<h2>Ropita de <br />Niño Dios</h2>
+		</div>
+	</section>
+
+	<main class="main-content">
+
+		<!-- CARACTERÍSTICAS -->
+		<section class="container container-features">
+
+			<div class="card-feature">
+				<i class="fa-solid fa-truck-fast"></i>
+				<div class="feature-content">
+					<span>Envío gratuito</span>
+					<p>Días a acordar</p>
+				</div>
+			</div>
+
+			<div class="card-feature">
+				<i class="fa-solid fa-cash-register"></i>
+				<div class="feature-content">
+					<span>Pago contra entrega</span>
+					<p>Paga hasta que reciba el producto</p>
+				</div>
+			</div>
+
+			<a
+				href="https://wa.me/message/BQCIRKGSBALPO1"
+				target="_blank"
+				class="feature-link"
+			>
+				<div class="card-feature">
+					<i class="fa-brands fa-whatsapp"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>Escríbenos 24/7 al 123-456-7890</p>
+					</div>
+				</div>
+			</a>
+
+		</section>
+
+		<!-- FILTRO -->
+		<section class="container container-filter">
+
+			<button id="btn-filter" class="btn-filter">
+				Filtrar productos
+			</button>
+
+			<div class="filters" id="filters">
+
+				<select id="filter-color">
+					<option value="">Color</option>
+				</select>
+
+				<select id="filter-size">
+					<option value="">Talla</option>
+					<option value="5">5</option>
+					<option value="8">8</option>
+					<option value="10">10</option>
+					<option value="12">12</option>
+					<option value="15">15</option>
+					<option value="20">20</option>
+					<option value="25">25</option>
+					<option value="30">30</option>
+					<option value="35">35</option>
+					<option value="40">40</option>
+					<option value="45">45</option>
+					<option value="50">50</option>
+				</select>
+
+				<select id="filter-price">
+					<option value="">Precio</option>
+					<option value="asc">Menor a mayor</option>
+					<option value="desc">Mayor a menor</option>
+				</select>
+
+				<button id="btn-clear-filters" class="btn-clear">
+					Limpiar filtros
+				</button>
+
+			</div>
+		</section>
+
+		<!-- PRODUCTOS -->
+		<section class="container products">
+			<h1 class="heading-1">Productos</h1>
+
+			<div class="container-products">
+
+				<div class="card-product"
+					data-color="blanco"
+					data-size="15,20,25,30,35,40,45"
+					data-price="380">
+
+					<a href="productos/luz_divina.html" class="product-link">
+						<div class="container-img">
+							<img src="img/luz_divina.webp" alt="Producto 1">
+						</div>
+						<div class="content-card-product">
+							<h3>Ropon Luz Divina</h3>
+							<p class="price">$380.00</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="azul"
+					data-size="15,20,25,30,35,40,45"
+					data-price="380">
+
+					<a href="productos/eterno_milagro.html" class="product-link">
+						<div class="container-img">
+							<img src="img/eterno_milagro.png" alt="Producto 2">
+						</div>
+						<div class="content-card-product">
+							<h3>Eterno Milagro</h3>
+							<p class="price">$380.00</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="blanco"
+					data-size="10,12,15,20,25,30,35,40"
+					data-price="135">
+
+					<a href="productos/proteccion.html" class="product-link">
+						<div class="container-img">
+							<img src="img/proteccion.png" alt="Producto 3">
+						</div>
+						<div class="content-card-product">
+							<h3>Niño de la protección</h3>
+							<p class="price">$135</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="blanco"
+					data-size="10,12,15,20,25,30,35,40"
+					data-price="135">
+
+					<a href="productos/dones.html" class="product-link">
+						<div class="container-img">
+							<img src="img/dones.png" alt="Producto 4">
+						</div>
+						<div class="content-card-product">
+							<h3>Niño de los 7 dones</h3>
+							<p class="price">$135</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="rosa"
+					data-size="10,12,15,20,25,30,35,40"
+					data-price="135">
+
+					<a href="productos/amor.html" class="product-link">
+						<div class="container-img">
+							<img src="img/amor.png" alt="Producto 5">
+						</div>
+						<div class="content-card-product">
+							<h3>Amor de Cristo</h3>
+							<p class="price">$135</p>
+						</div>
+					</a>
+
+				</div>
+				
+				<div class="card-product"
+					data-color="verde"
+					data-size="12,15,20,25,30,40"
+					data-price="310">
+
+					<a href="productos/prosperidad.html" class="product-link">
+						<div class="container-img">
+							<img src="img/prosperidad.png" alt="Producto 6">
+						</div>
+						<div class="content-card-product">
+							<h3>Niño de la Prosperidad</h3>
+							<p class="price">$310</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="rojo"
+					data-size="12,15,20,25,30,35,40"
+					data-price="310">
+
+					<a href="productos/providencia.html" class="product-link">
+						<div class="container-img">
+							<img src="img/providencia.png" alt="Producto 7">
+						</div>
+						<div class="content-card-product">
+							<h3>Divina Providencia</h3>
+							<p class="price">$310</p>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="card-product"
+					data-color="cafe"
+					data-size="12,15,20,25,30,35,40"
+					data-price="310">
+
+					<a href="productos/sanador.html" class="product-link">
+						<div class="container-img">
+							<img src="img/sanador.png" alt="Producto 8">
+						</div>
+						<div class="content-card-product">
+							<h3>Jesus Divino Sanador</h3>
+							<p class="price">$310</p>
+						</div>
+					</a>
+
+				</div>
+				<div class="card-product"
+					data-color="blanco"
+					data-size="15,20,25,30,35,40,45"
+					data-price="380">
+
+					<a href="productos/paz.html" class="product-link">
+						<div class="container-img">
+							<img src="img/paz.jpeg" alt="Producto 9">
+						</div>
+						<div class="content-card-product">
+							<h3>Niño de la paz y armonia</h3>
+							<p class="price">$380</p>
+						</div>
+					</a>
+
+				</div>
+				<div class="card-product"
+					data-color="blanco"
+					data-size="15,20,25,30,35,40,45"
+					data-price="380">
+
+					<a href="productos/nazareth.html" class="product-link">
+						<div class="container-img">
+							<img src="img/paz.jpeg" alt="Producto 10">
+						</div>
+						<div class="content-card-product">
+							<h3>Jesus de Nazareth</h3>
+							<p class="price">$380</p>
+						</div>
+					</a>
+
+				</div>
+				<div class="card-product"
+					data-color="blanco"
+					data-size="10,12,15,20,25,30,35,40"
+					data-price="135">
+
+					<a href="productos/salvador.html" class="product-link">
+						<div class="container-img">
+							<img src="img/salvador.png" alt="Producto 10">
+						</div>
+						<div class="content-card-product">
+							<h3>Cristo Nuestro Salvador</h3>
+							<p class="price">$135</p>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container container-footer">
+
+			<div class="menu-footer">
+
+				<div class="contact-info">
+					<p class="title-footer">Información de Contacto</p>
+					<ul>
+						<li>Dirección: 71 Pennington Lane Vernon Rockville, CT 06066</li>
+						<li>Teléfono: 123-456-7890</li>
+						<li>Fax: 55555300</li>
+						<li>Email: baristas@support.com</li>
+					</ul>
+				</div>
+
+				<div class="information">
+					<p class="title-footer">Información</p>
+					<ul>
+						<li><a href="#">Acerca de Nosotros</a></li>
+						<li><a href="#">Información Delivery</a></li>
+						<li><a href="#">Políticas de Privacidad</a></li>
+						<li><a href="#">Términos y condiciones</a></li>
+						<li><a href="#">Contáctanos</a></li>
+					</ul>
+				</div>
+
+				<div class="my-account">
+					<p class="title-footer">Mi cuenta</p>
+					<ul>
+						<li><a href="#">Mi cuenta</a></li>
+						<li><a href="#">Historial de órdenes</a></li>
+						<li><a href="#">Lista de deseos</a></li>
+						<li><a href="#">Boletín</a></li>
+						<li><a href="#">Reembolsos</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="js/filters.js"></script>
+
+</body>
+</html>
