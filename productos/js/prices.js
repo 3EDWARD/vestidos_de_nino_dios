@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
             35: 520,
             40: 550,
             45: 600,
-        },
+        }
         
     };
 
@@ -133,4 +133,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
