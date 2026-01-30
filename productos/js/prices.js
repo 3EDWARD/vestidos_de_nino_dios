@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
             40: 550,
             45: 600,
         },
-            nazaret: {
+            nazareth: {
             15: 380,
             20: 430,
             25: 450,
@@ -133,3 +133,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
